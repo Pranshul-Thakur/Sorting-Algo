@@ -1,15 +1,25 @@
 def selection_sort(arr):
     n = len(arr)
-    
-    for i in range(n): #traverse through the list
-        
-        min_index = i #assigning the value of minimum index to i
-        for j in range(i+1, n): #traversing through the list from the second element onwards
-            if arr[min_index] > arr[j]: #checking if the i is greater than j
-                min_index = j #if greater then assign the value of minimum index to j
-                
-        arr[i], arr[min_index] = arr[min_index], arr[i] #inter switching the position of elements
-        
+
+    #traverse through the list
+    for i in range(n):
+
+        #assigning the value of minimum index to i
+        min_index = i
+
+        #traversing through the list from the second element onwards
+        for j in range(i+1, n):
+
+            #checking if the i is greater than j
+            if arr[min_index] > arr[j]:
+
+                #if greater then assign the value of minimum index to j
+                min_index = j
+
+        #inter switching the position of elements
+        arr[i], arr[min_index] = arr[min_index], arr[i]
+
+
 #printing the list        
 my_list = [4,34,123,2,0,78]
 selection_sort(my_list)
