@@ -1,4 +1,4 @@
-# Sorting-Algo
+# Sorting Algorithms
 Collection of all the sorting Algorithms in Python ( In Progress )
 
 -Bubble Sort
