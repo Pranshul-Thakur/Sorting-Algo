@@ -1,5 +1,5 @@
 # Sorting-Algo
-Collection of all the sorting Algorithms ( In Progress )
+Collection of all the sorting Algorithms in Python ( In Progress )
 
 -Bubble Sort
 
