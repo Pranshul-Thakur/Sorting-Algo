@@ -29,8 +29,8 @@ def quicksort(array, first, last):
  
         #finding the pivot element and checking if the smaller element are on left and larger on the right
         pi = partition(array, first, last)
-        #pi is the pivot
- 
+        #pi is the pivot element
+        
         #recursive call on left of pivot
         quicksort(array, first, pi - 1)
  
@@ -42,4 +42,4 @@ def quicksort(array, first, last):
 my_list = [10,20,40,7,23,45,67]
 n = len(my_list)
 quicksort(my_list, 0, n - 1)
-print("The sorted array is : ", my_list) 
+print("The sorted array is : ", my_list)
