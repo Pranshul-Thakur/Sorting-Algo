@@ -24,8 +24,7 @@ def heapSort(arr):
         arr[i], arr[0] = arr[0], arr[i]
         heapify(arr, i, 0)
 
-
-# Example usage:
-# arr = [12, 11, 13, 5, 6, 7]
-# heapSort(arr)
-# print("Sorted array is:", arr)
+#printing the list
+arr = [10,34,23,1,520,76,7,8]
+heapsort(arr)
+print("the sorted array is : ", arr)
