@@ -14,7 +14,7 @@ def count_sort(arr):
     for i in range(1, m + 1):
         count[i] += count[i - 1]
     
-        
+    #creates a new array list and fills it with 0 
     result = [0] * len(arr)
     
     #restoring the array elements and return it
