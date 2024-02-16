@@ -10,3 +10,9 @@ Collection of all the sorting Algorithms in Python ( In Progress )
 -Merge Sort
 
 -Iterative Merge Sort
+
+-Quick Sort
+
+-Heap Sort
+
+-Counting Sort
